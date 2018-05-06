@@ -32,10 +32,10 @@ driver.find_element_by_id('form:_id120').click()
 
 time.sleep(5)
 
-#Sort by date
+# Sort by date
 driver.find_element_by_id('form:resultTable:_id43').click()
 
-#Open the first case
+# Open the first case
 driver.find_element_by_id('form:resultTable:0:_id36').click()
 
 time.sleep(10)
